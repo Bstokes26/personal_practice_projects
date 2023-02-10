@@ -93,7 +93,7 @@ int number(char pw[], int n, int *d){
 	for (i = 0; i <n; ++i) {
 		if(pw[i] == '1' || pw[i] == '2' || pw[i] == '3' || pw[i] == '4'
 		|| pw[i] == '5' || pw[i] == '6' || pw[i] == '7' || pw[i] == '8'
-		|| pw[i] == '9') {
+		|| pw[i] == '9' || pw[i] == '0') {
 			numflag = 1; //requirement passed
 			break;
 		}
